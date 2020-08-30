@@ -1,0 +1,121 @@
+W3C The W3C CSS Validation Service
+W3C CSS Validator results for abc.html (CSS level 3 + SVG)
+
+Jump to: Validated CSS
+W3C CSS Validator results for abc.html (CSS level 3 + SVG)
+
+
+                                               Congratulations! No Error Found.
+
+
+
+This document validates as CSS level 3 + SVG !
+
+To show your readers that you've taken the care to create an interoperable Web page, you may display this icon on any page that validates. Here is the XHTML you could use to add this icon to your Web page:
+
+Valid CSS!
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+Valid CSS!
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+        
+(close the img tag with > instead of /> if using HTML <= 4.01)
+
+Validators Donation Program logo	The W3C validators rely on community support for hosting and development.
+
+Donate and help us build better tools for a better web.
+If you like, you can download a copy of this image to keep in your local web directory, and change the XHTML fragment above to reference your local image rather than the one on this server.
+
+If you would like to create a link to this page (i.e., this validation result) to make it easier to re-validate this page in the future or to allow others to validate your page, the URI is:
+
+http://jigsaw.w3.org/css-validator/validator$link
+or
+http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
+(Or, you can just add the current page to your bookmarks or hotlist.)
+
+↑ TOP
+
+Valid CSS information
+body {
+background-color : pink;
+font-family : "Times New Roman", Times, serif;
+font-style : italic;
+background-image : url("lordshiva.jpg");
+}
+a:link {
+color : red;
+}
+a:visited {
+color : yellow;
+}
+a:hover {
+color : white;
+}
+a:active {
+color : black;
+}
+ul.xyz {
+list-style-type : none;
+margin : 0;
+padding : 0;
+}
+ul.a {
+list-style-type : circle;
+}
+h1.hidden {
+visibility : hidden;
+border : black solid 2px;
+padding-top : 75px;
+padding-right : 75px;
+padding-bottom : 75px;
+padding-left : 75px;
+}
+[class|="dotted"] {
+background : yellow;
+}
+img {
+float : left;
+}
+td[class="AI"] {
+background : green;
+}
+div {
+position : sticky;
+border : black solid 1px;
+margin-top : 50px;
+margin-bottom : 50px;
+margin-right : 50px;
+margin-left : 50px;
+background-color : lightblue;
+}
+tr:nth-child(even) {
+background-color : red;
+}
+.right {
+text-align : right;
+padding : 2px;
+}
+.left {
+text-align : left;
+padding : 2px;
+}
+table.dotted {
+outline-style : dotted;
+}
+↑ TOP
+
+Home About Documentation Download Feedback Credits
+QACSSI heart Validator logo
+COPYRIGHT © 1994-2014 W3C® (MIT, ERCIM, KEIO, BEIHANG), ALL RIGHTS RESERVED. W3C LIABILITY, TRADEMARK, DOCUMENT USE AND SOFTWARE LICENSING RULES APPLY. YOUR INTERACTIONS WITH THIS SITE ARE IN ACCORDANCE WITH OUR PUBLIC AND MEMBER PRIVACY STATEMENTS.
