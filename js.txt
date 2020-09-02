@@ -1,0 +1,3 @@
+Java script is a dynamic programming language that is used to make the web pages interactive.It is similar to java programming language but java script has various differences between java and javascript.
+Java script is embedded in the script tag.The script tag is embedded in the head tag or body tag.The java script function is triggered or called through event listeners such as onxlick etc from the input tag.
+There are various data types in js such as int,undefined,null etc.
