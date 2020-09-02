@@ -1,0 +1,5 @@
+Dhtml is dynamic html which is quiet different from html.It is used to create dynamic web pages and it involves html,css,js etc.It is quiet conviet tha html as it is not a mark up language but a hub of technologies.There are various advantages of Dhtml such as:
+1.It is portable in size
+2.It can contain more content than html
+3.It is easy and supported by various browsers
+2.It reduces time consumption
