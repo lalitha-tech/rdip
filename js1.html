@@ -1,6 +1,5 @@
 <html>
 <head>
-<!--
 	<script>
 		function demo(x,y)
 {
@@ -10,10 +9,12 @@ document.write("x: "+x+" ");
 document.write("y "+y+" ");
 var sum=x+y;
 document.write("sum "+sum);
+document.write(" pow "+Math.pow(x,y));
+document.write(" ceil "+Math.ceil(x));
 }
 
 	</script>
--->
+<!--
 <script>
 function demo()
 {
@@ -24,10 +25,9 @@ if(p!=null)
 document.write("It has digits");
 else
 document.write("It does not have digits");
-}
+}-->
 </script> 
 </head>
 <body>
-        name:<input type="name" id="name">
-	<input type="button" name="check" onclick="demo()" value="check">
+	<input type="button" name="check" onclick="demo(4,0.5)" value="check">
 </body>
