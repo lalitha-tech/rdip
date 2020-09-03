@@ -1,16 +1,19 @@
 <html>
 <head>
 	<script>
-		function demo()
+		function demo(x,y)
 {
-	var x=10;
-	var y=20;
-document.write(x+" "+y);
+	//var x=10;
+	//var y=20;
+document.write("x: "+x+" ");
+document.write("y "+y+" ");
+var sum=x+y;
+document.write("sum "+sum);
 }
 
 	</script>
+
 </head>
 <body>
-	
-	<input type="button" name="check" onclick="demo()" value="check">
+	<input type="button" name="check" onclick="demo(50,20)" value="DemoSum">
 </body>
