@@ -1,0 +1,19 @@
+<html>
+	<body>
+	HTML:	<input type="text" name="demo" id="demo">
+	        <input type="button" name="find" value="find" onclick="find1()">	
+	<script>
+		function find1()
+{
+	var x=document.getElementById("demo").value;
+        document.write(x);
+	var arr=x.split(" ");
+	document.write("<br/>"+"5th element:"+" "+arr[4]+"<br/>"+"7th element"+" "+arr[6]+"<br/>"+"10th element"+" "+arr[9]);
+
+}
+
+	</script>
+	</body>
+
+</html>
+
