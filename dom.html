@@ -1,26 +1,27 @@
 <html>
 <body>
-
-<p>This is a Demo</p>
-
-<h1 id="demo">Internship in iith (moveover to color change)</h1>
+Number:<input type="text" name="number" id="number">
 <input type="button" name="click" value="click" onclick="click1()">
 
 <script>
-document.getElementById("demo").onmouseover = function() {mouseOver()};
-document.getElementById("demo").onmouseout = function() {mouseOut()};
-
-function mouseOver() {
-//document.getElementById("demo").innerHTML="Mouse over Demo hii!
-  document.getElementById("demo").style.color = "red";
-}
-
-function mouseOut() {
-  document.getElementById("demo").style.color = "black";
-}
 function click1()
 {//alert("hii");
-document.write("hello Welcome");
+var x=document.getElementById("number").value;
+if(x>=10&&x<=100)
+document.write("yes it is in between  10 and 100");
+else
+document.write("no it is not between 10 and 100");
+
+var a=0;
+var b=1;
+var c;
+document.write("<br/>Fibonocci series<br/>");
+for(var i=1;i<=x;i++)
+{c=a+b;
+document.write(c+" ");
+a=b;
+b=c;
+}
 }
 </script>
 
