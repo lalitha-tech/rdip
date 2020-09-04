@@ -1,16 +1,28 @@
 <html>
-	<head>
-	<script>
-		function demo()
-{//alert("hii");
-	var name1=document.getElementById("name").value;
-//alert(name1);
-	console.log(name);
+<body>
+
+<p>This is a Demo</p>
+
+<h1 id="demo">Internship in iith (moveover to color change)</h1>
+<input type="button" name="click" value="click" onclick="click1()">
+
+<script>
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+//document.getElementById("demo").innerHTML="Mouse over Demo hii!
+  document.getElementById("demo").style.color = "red";
 }
-	</script>
-	</head>
-	<body>
-		name<input type="name" id="name">
-		<input type="button" name="print" value="print" onclick="demo()">
-	</body>
+
+function mouseOut() {
+  document.getElementById("demo").style.color = "black";
+}
+function click1()
+{//alert("hii");
+document.write("hello Welcome");
+}
+</script>
+
+</body>
 </html>
