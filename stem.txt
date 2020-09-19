@@ -1,0 +1,3 @@
+stemming is process used in natural language processing in order to find the head of a node 
+npn install snowball is used in stemming
+snowball stemmer is used 
